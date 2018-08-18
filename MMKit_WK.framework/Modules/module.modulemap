@@ -1,6 +1,0 @@
-framework module MMKit_WK {
-  umbrella header "MMKit_WK.h"
-
-  export *
-  module * { export * }
-}
