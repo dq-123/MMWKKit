@@ -4,9 +4,9 @@ Pod::Spec.new do |s|
 
   s.name         = "MMWKKit"
   s.version      = "1.2.5"
-  s.summary      = "MMKit_WK"
+  s.summary      = "MMKit纯WKWebView版本"
 
-  s.license      = { :type => "Apache-2.0", :file => "LICENSE" }
+  s.license      = { :type => "MIT License", :file => "LICENSE" }
   s.homepage     = "https://google.com"
   s.author       = { "CoderDwang" => "Customer Service System" }
 
