@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MMWKKit"
-  s.version      = "1.2.5"
+  s.version      = "1.2.5.1"
   s.summary      = "MMKit纯WKWebView版本"
 
   s.license      = { :type => "MIT License", :file => "LICENSE" }
