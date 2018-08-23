@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.libraries = "sqlite3", "icucore", "c++", "resolv", "z"
   s.resources     = "MMKitResouce.bundle"
   s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
-  s.xcconfig = {'OTHER_LDFLAGS' => '-all_load'}
+  s.xcconfig = {'OTHER_LDFLAGS' => '-force_load $(PROJECT_DIR)/MMWKKit/MMKit_WK.framework/MMKit_WK'}
   s.xcconfig = {'ENABLE_BITCODE' => 'NO'}
   s.source       = { :git => ""}
   s.vendored_frameworks = 'MMKit_WK.framework'
